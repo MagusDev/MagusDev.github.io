@@ -19,6 +19,7 @@ I studied Electrical and Computer Engeering at University of Tehran, during this
  - Mobile app development
  - Game development (mobile and PC)
  - AI development
+
 I may add my CV somewhere in this website later. So, stay tuned fellow collaborators!
 
 ## Personal
@@ -28,7 +29,7 @@ My hobbies are mainy video games and watching movies/series.
 
 I play LOL as an addiction and Indie games as a passion (You can contact me if you want to join me and my squad).
 
-I am also open to activities such as hiking, I used to do it a lot with my friends.
+I also enjoy hiking, I used to do it a lot with my friends.
 
 A few of my qualities you might be interested of:
 - I got identified as an INFJ twice (I don't actually believe that MBTI types are fixed)
