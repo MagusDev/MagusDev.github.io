@@ -8,7 +8,7 @@ subtitle: Why you'd want to go on a date with me, or don't!
 My name is Mohammad Abaeiani. 
 I mostly appear as an anonymous user in most social media - where I talk a lot, and I decided to present myself a bit for those who actually saw my physical form.
 
-## Academic/Professional
+## Academic & Professional
 My first professional experience was graphic design, at high school I learned apps like Photoshop and Illustrator and made banners and posters for my school.
 I took a brief internship as level designer back then as well (Amytis games)
 
