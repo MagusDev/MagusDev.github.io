@@ -3,22 +3,18 @@ title: Portfolio
 subtitle: Here are some of the projects I've done
 ---
 
-<h2>Portfolio</h2>
-
-<h3>Row 1</h3>
-
 <table>
+{% for project in site.data.projects %}
+  {% if forloop.index0 | modulo:2 == 0 %}
   <tr>
-    <td><img src="image-url-1" alt="Image1"/><br><a href="github-link-1">Project 1</a><br>Short description for project 1</td>
-    <td><img src="image-url-2" alt="Image2"/><br><a href="github-link-2">Project 2</a><br>Short description for project 2</td>
+  {% endif %}
+    <td>
+      <img src="{{ project.image_url }}" alt="{{ project.name }}"/><br>
+      <a href="{{ project.github_link }}">{{ project.name }}</a><br>
+      {{ project.description }}
+    </td>
+  {% if forloop.index0 | modulo:2 == 1 %}
   </tr>
-</table>
-
-<h3>Row 2</h3>
-
-<table>
-  <tr>
-    <td><img src="image-url-3" alt="Image3"/><br><a href="github-link-3">Project 3</a><br>Short description for project 3</td>
-    <td><img src="image-url-4" alt="Image4"/><br><a href="github-link-4">Project 4</a><br>Short description for project 4</td>
-  </tr>
+  {% endif %}
+{% endfor %}
 </table>
