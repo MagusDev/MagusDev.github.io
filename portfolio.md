@@ -17,4 +17,7 @@ subtitle: Here are some of the projects I've done
   </tr>
   {% endif %}
 {% endfor %}
+{% if site.data.projects.size | modulo:2 == 1 %}
+  </tr>
+{% endif %}
 </table>
