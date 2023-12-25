@@ -2,8 +2,6 @@
 layout: page
 ---
 
-{{ content }}
-
 <!-- Filter Options -->
 <div class="filter-options">
   <button onclick="filterPosts('all')">All Posts</button>
