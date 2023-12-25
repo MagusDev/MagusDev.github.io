@@ -22,9 +22,7 @@ author: Mohammad Abaeiani
 navbar-links:
   About Me: "aboutme"
   Projects: "portfolio"
-  articles:
-    -  Bright Side: "bright"
-    - Dark Side: "dark"
+  Articles: "articles"
 
 ################
 # --- Logo --- #
