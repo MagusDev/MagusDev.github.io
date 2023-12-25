@@ -14,6 +14,13 @@ layout: page
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
+  {% assign displayRegular = true %}
+  {% assign displayDark = true %}
+   {% if post.dark != true %}
+      {% assign displayDark = false %}
+   {% else %}
+      {% assign displayRegular = false %}
+   {% endif %}
   <li class="post-preview">
     <article>
 
@@ -127,19 +134,25 @@ layout: page
 {% endif %}
 
 <script>
-  function filterPosts(filterType) {
-    const regularPosts = document.getElementById('regularPosts');
-    const darkPosts = document.getElementById('darkPosts');
+  let filterType = 'all'; // Default filter type
 
-    if (filterType === 'all') {
-      regularPosts.style.display = 'block';
-      darkPosts.style.display = 'block';
-    } else if (filterType === 'regular') {
-      regularPosts.style.display = 'block';
-      darkPosts.style.display = 'none';
-    } else if (filterType === 'dark') {
-      regularPosts.style.display = 'none';
-      darkPosts.style.display = 'block';
-    }
+  function filterPosts(type) {
+    filterType = type;
+    const postPreviews = document.querySelectorAll('.post-preview');
+
+    postPreviews.forEach((preview) => {
+      const isRegular = preview.style.display.includes('block') && preview.innerText.includes('Regular Posts');
+      const isDark = preview.style.display.includes('block') && preview.innerText.includes('Dark Posts');
+
+      if (
+        (type === 'regular' && isRegular) ||
+        (type === 'dark' && isDark) ||
+        (type === 'all')
+      ) {
+        preview.style.display = 'block';
+      } else {
+        preview.style.display = 'none';
+      }
+    });
   }
 </script>
