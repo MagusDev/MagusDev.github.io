@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 author: Bill Smith
-dark: false
+categories: Tutorial
 ---
 
 {: .box-success}
