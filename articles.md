@@ -2,6 +2,7 @@
 layout: page
 ---
 
+<!-- Filter Options -->
 <div class="filter-options">
 <button id="All" onclick="filterUsingCategory('All')">
   All 
@@ -143,7 +144,7 @@ layout: page
       var postDiv = document.getElementById(++id);
       postDiv.style.display =
         (selectedCategory == 'All' || cats.includes(selectedCategory)) 
-          ? 'unset' 
+          ? 'block' 
           : 'none';
     {% endfor %}
   }
