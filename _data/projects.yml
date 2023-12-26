@@ -1,28 +1,39 @@
 - name: SIM Game
-  image_url: /path/to/image1.jpg
+  image_url: \assets\img\SIM.png
   github_link: https://github.com/MagusDev/AI-course/tree/main/AI%20P2
   description: Implementation of minimax algorithm in a turn based game
+
 - name: GAN hand generator
-  image_url: /path/to/image2.jpg
+  image_url: \assets\img\GAN.png
   github_link: https://github.com/MagusDev/Neural-Networks-course/tree/main/HW%206
   description: A Generative Adversarial Network designed and trained on a dataset of hand images
+
 - name: Portality Map Generator
-  image_url: /path/to/image3.jpg
+  image_url: \assets\img\Portals.png
   github_link: https://github.com/PiRadHex
   description: A complex procedural map generator which combines static map elements and portals to generate a non linear playthrough
+
 - name: Interaction System toolkit
-  image_url: /path/to/image3.jpg
+  image_url: \assets\img\Interaction.png
   github_link: https://github.com/PiRadHex/Unity-Interaction-System-Toolkit
   description: An open-source toolkit for unity containing various scripts providing a seamless interaction system 
+
 - name: Project Commander
-  image_url: /path/to/image3.jpg
-  github_link: https://github.com/PiRadHex
+  image_url: \assets\img\commander.png
+  github_link: https://piradhex.itch.io/project-commander
   description: A comprehensive first preson army manager with integrated incremental upgrade system and enemy wave system
+
 - name: Tshirt Customizer
-  image_url: /path/to/image3.jpg
+  image_url: \assets\img\TshirtDesigner.png
   github_link: https://github.com/MagusDev/threejs-Tshirt-customizer
   description: Web application that enables users to Design their T-shirt by customizing its color and logo or even generate the desired design using AI prompts
+
 - name: Car Hub
-  image_url: /path/to/image3.jpg
+  image_url: \assets\img\CarHub.png
   github_link: https://github.com/MagusDev/nextjs-car-showcase
   description: Car rental website with the ability to filter the cars by various aspects and seamlessly handle the dispayed data
+
+- name: 3D Portfolio 
+  image_url: \assets\img\portfolio website.png
+  github_link: https://mohammadabaeiani.netlify.app/
+  description: A 3D portfolio website made with react and three.js

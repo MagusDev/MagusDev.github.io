@@ -4,9 +4,9 @@ title: Sample blog post to learn markdown tips
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [tutorial]
 comments: true
-author: Bill Smith
+author: Bill Smith (edited by Mohammad Abaeiani)
 categories: Tutorial
 ---
 
@@ -90,3 +90,31 @@ When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.gi
 If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
 
 ![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+
+
+## Markdown cheat sheet
+
+|Element|Syntax|
+|---|---|
+|[Headlines](https://tutorialmarkdown.com/sintaxis/#encabezados)|# H1<br>## H2<br>## H3|
+|[Boldface](https://tutorialmarkdown.com/sintaxis#negrita)|`**texto en negrita**`<br>`__texto en negrita__`|
+|[Italics](https://tutorialmarkdown.com/sintaxis#cursiva)|`*texto en cursiva*`<br>`_texto en cursiva_`|
+|[Dating](https://tutorialmarkdown.com/sintaxis#citas)|> cita|
+|[Sorted Lists](https://tutorialmarkdown.com/sintaxis#listas-ordenadas)|1. Primer elemento<br>1. Segundo elemento|
+|[Unordered lists](https://tutorialmarkdown.com/sintaxis#listas-no-ordenadas)|* Primer elemento<br>* Segundo elemento<br> <br>+ Primer elemento<br>+ Segundo elemento<br> <br>- Primer elemento<br>- Segundo elemento|
+|[Code](https://tutorialmarkdown.com/sintaxis#codigo)|`código`|
+|[Horizontal line](https://tutorialmarkdown.com/sintaxis#lineas-horizontales)|---|
+|[Links](https://tutorialmarkdown.com/sintaxis#enlaces)|[anchor](https://enlace.tld "título")|
+|[Imagery](https://tutorialmarkdown.com/sintaxis#imagenes)|![Alt](/ruta/imagen.png)|
+|[Stalemate](https://tutorialmarkdown.com/sintaxis-extendida#tablas)|\| Color \| Código \|<br>\| ----------- \| ----------- \|<br>\| Rojo \| #FF0000 \|<br>\| Azul \| #0000FF \||
+|[Advanced Code Blocks](https://tutorialmarkdown.com/sintaxis-extendida#bloques-de-codigo)|```<br>{<br>  "Nombre": "Edu",<br>  "Peso": "72Kg"<br>}<br>```|
+|[Syntax highlighting](https://tutorialmarkdown.com/sintaxis-extendida#resaltado-de-sintaxis)|```json<br>{<br>  "Nombre": "Edu",<br>  "Peso": "72Kg"<br>}<br>```|
+|[Footnotes](https://tutorialmarkdown.com/sintaxis-extendida#notas-al-pie)|Texto con referencia. [^1]<br> <br>[^1]: Nota de la referencia|
+|[Header IDs](https://tutorialmarkdown.com/sintaxis-extendida#ids-de-cabecera)|## Encabezado {#id-personalizado}|
+|[Lists of definitions](https://tutorialmarkdown.com/sintaxis-extendida#listas-de-definiciones)|Término<br>: definición|
+|[Strikethrough text](https://tutorialmarkdown.com/sintaxis-extendida#texto-tachado)|`~~Texto tachado~~`|
+|[To-do lists](https://tutorialmarkdown.com/sintaxis-extendida#listas-de-tareas)|- [x] Primera tarea<br>- [ ] Segunda tarea<br>- [ ] Tercera tarea|
+|[Emojis (copy and paste)](https://tutorialmarkdown.com/sintaxis-extendida#copiar-y-pegar-emojis)|😄|
+|[Emojis (shortcodes)](https://tutorialmarkdown.com/sintaxis-extendida#shortcodes-de-emojis)|:smile:|
+|[Automatic Links](https://tutorialmarkdown.com/sintaxis-extendida#enlaces-automaticos)|https://www.neoguias.com|
+|[Disable auto-links](https://tutorialmarkdown.com/sintaxis-extendida#enlaces-automaticos)|`https://www.neoguias.com`|
