@@ -10,7 +10,7 @@ subtitle: Here are some of the projects I've done
     /* Optional: You can add more styling as needed */
   }
 
- .project-item {
+  .project-item {
     width: calc(33.33% - 20px); /* 33.33% width for each column with gap adjustment */
     padding: 15px; /* Padding around each project item */
     border: 1px solid #eaeaea; /* Border for each project item */
@@ -22,6 +22,19 @@ subtitle: Here are some of the projects I've done
     width: 100%; /* Ensures the image takes the full width of its container */
     height: auto; /* Maintains aspect ratio */
     /* Optional: You can add more styling as needed */
+  }
+
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .projects-container {
+      justify-content: center; /* Center items */
+    }
+
+    .project-item {
+      width: 100%; /* Full width on mobile */
+      max-width: 400px; /* Optional: Limit the maximum width */
+      /* Additional mobile-specific styling */
+    }
   }
 </style>
 
